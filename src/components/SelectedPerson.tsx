@@ -5,12 +5,12 @@ function SelectedPerson() {
 	const [personSelected] = useRecoilState(selectedPerson);
 	return (
 		<div style={{ marginTop: '2rem' }}>
-			Pessoa selecionada:
+			Selected Person:
 			{personSelected.id !== -1 && (
 				<>
 					<p>ID: {personSelected.id}</p>
-					<p>Nome: {personSelected.name}</p>
-					<p>Idade: {personSelected.age}</p>
+					<p>Name: {personSelected.name}</p>
+					<p>Age: {personSelected.age}</p>
 					<p>Email: {personSelected.email}</p>
 				</>
 			)}

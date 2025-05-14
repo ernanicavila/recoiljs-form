@@ -36,8 +36,8 @@ function PersonList() {
 					}}
 				>
 					<p>ID: {el.id}</p>
-					<p>Nome: {el.name}</p>
-					<p>Idade: {el.age}</p>
+					<p>Name: {el.name}</p>
+					<p>Age: {el.age}</p>
 					<p>Email: {el.email}</p>
 					<div
 						style={{

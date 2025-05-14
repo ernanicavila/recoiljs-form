@@ -28,18 +28,21 @@ function PersonForm() {
 				type="text"
 				value={name}
 				onChange={(e) => setName(e.target.value)}
+				placeholder='Name'
 			/>
 			<input
 				type="number"
 				value={age}
 				onChange={(e) => setAge(e.target.value)}
+				placeholder='Age'
 			/>
 			<input
 				type="text"
 				value={email}
 				onChange={(e) => setEmail(e.target.value)}
+				placeholder='Email'
 			/>
-			<button onClick={handleSubmit}>Enviar</button>
+			<button onClick={handleSubmit}>Submit</button>
 		</>
 	);
 }
